@@ -11,3 +11,9 @@ ADD requirements.txt /code/
 RUN pip install -r requirements.txt
 
 ADD . /code/
+
+#uWSGI will list on this port
+EXPOSE 8000
+
+# Add any custom, static enviroment variables needed by Django or your settings file here:
+ENV DJANGO_SETTINGS_MODULE=composeexample.settings.deploy
