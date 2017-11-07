@@ -1,4 +1,5 @@
 FROM python:3.6
+MAINTAINER Matt Brown "mattd429@gmail.com"
 
 ENV PYTHONUNBUFFERED 1
 
