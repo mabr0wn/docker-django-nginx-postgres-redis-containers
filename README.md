@@ -1,3 +1,12 @@
+In the end, the stack will include a separate container for each service:
+
+1 web/Django container
+1 nginx container
+1 Postgres container
+1 Redis container
+1 data container
+
+
 # Django-Docker
 Build a simple web app using Django with Docker
 # 1. Install Docker for Mac
