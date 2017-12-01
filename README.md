@@ -1,4 +1,4 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)]() 
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)]()
 
 
 In the end, the stack will include a separate container for each service:
