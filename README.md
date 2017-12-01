@@ -1,3 +1,6 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)]() 
+
+
 In the end, the stack will include a separate container for each service:
 
 - 1 web/Django container
