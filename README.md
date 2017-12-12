@@ -1,6 +1,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)]() [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]() [![GitHub language count](https://img.shields.io/github/languages/count/badges/shields.svg)]()
 
-![alt text](https://realpython.com/images/blog_images/dockerizing-django/django-docker.png)
+![alt text](http://yacows.com.br/media/images/2013/11/12/img-0-pythonninja.png)
 
 [Docker](https://www.docker.com/) is a containerization tool used for spinning up isolated, reproducible application enviroments. **This piece detials how to containerize a Django Project, Postgres, and Redis for local development along with delivering the stack to the cloud via [Docker Compose](https://docs.docker.com/compose/) and [Docker Machine](http://docs.docker.com/machine/)
 
