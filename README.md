@@ -11,6 +11,9 @@ In the end, the stack will include a separate container for each service:
 
 ![alt text](https://realpython.com/images/blog_images/dockerizing-django/container-stack.png)
 
+### Updates:
+- *11/10/2016*: Added named data volumes to the Postgres and Redis containers.
+- *11/13/2017*: Added Docker Toolbox, and also updated to the latest versions of Docker - Docker client(17.09.0-ce, build afdb6d4), Docker composer (v1.16.1, build 6d1ac21), Docker Machine(v0.12.2, build 9371605)
 
 # Django-Docker
 Build a simple web app using Django with Docker
