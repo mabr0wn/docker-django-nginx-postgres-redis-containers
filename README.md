@@ -9,6 +9,8 @@ In the end, the stack will include a separate container for each service:
 - 1 Redis container
 - 1 data container
 
+![alt text](https://realpython.com/images/blog_images/dockerizing-django/container-stack.png)
+
 
 # Django-Docker
 Build a simple web app using Django with Docker
