@@ -27,3 +27,12 @@ Along with Docker(v17.09.0) we will be using -
 If you're running either Mac OS X or Windows, then download and install the [Docker Toolbox](https://www.docker.com/products/docker-toolbox) to get all the necessary tools. Otherwise follow the directions [here](https://docs.docker.com/compose/install/) and [here](https://docs.docker.com/machine/install-machine/) to install Docker Compose and Machine, respectively.
 
 Once done, test out the installs:
+
+    $ docker-machine version
+    docker-machine version 0.12.2, build 9371605
+    $ docker-compose version
+    docker-compose version 1.16.1, build 6d1ac21
+    docker-py version: 2.5.1
+    CPython version: 2.7.12
+    OpenSSL version: OpenSSL 1.0.2j 26 Sep 2016
+    
