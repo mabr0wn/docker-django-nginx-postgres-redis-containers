@@ -142,4 +142,12 @@ nginx:
   links:
     - web:web
   
+postgres:
+  restart: always
+  image: postgres:lastest
+  ports:
+    - "5432:5432"
+  volumes:
+    - pgdata:/var/lib/postgresql/data/
+    
 
