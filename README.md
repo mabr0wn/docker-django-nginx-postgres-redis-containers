@@ -110,3 +110,6 @@ Run the following command to view the currently running Machines:
     NAME   ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER    ERRORS
     dev    *        virtualbox   Running   tcp://192.168.99.100:2376           v1.10.3
     
+Next, let's fire up the container with Docker Compose and get Django, Postgres, and Redis up and running.
+
+## Docker Compose
