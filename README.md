@@ -103,3 +103,10 @@ The `create` command set up a new "Machine" (called *dev*) for Docker developmen
 ```docker
 $ eval $(docker-machine env dev)
 ```
+
+Run the following command to view the currently running Machines:
+
+    $ docker-machine ls
+    NAME   ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER    ERRORS
+    dev    *        virtualbox   Running   tcp://192.168.99.100:2376           v1.10.3
+    
