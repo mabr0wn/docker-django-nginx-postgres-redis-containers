@@ -158,3 +158,8 @@ regis:
   volumes:
     - redisdata:/data
 ```
+
+Here, we're defining four services - *web*, *nginx*, *postgres*, and *redis*.
+
+1. First, the *web* service is built via the instructions in the *Dockerfile* within the "web" directory
+ - Where the Python environment is setup, requirements are installed, and Django applications is fired up on port 8000. That port is then fowarded to port 80 on the host environment - e.g., the Docker Machine. This service also adds environment variables to the container that are defined in the *.env* file.
