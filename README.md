@@ -113,3 +113,19 @@ Run the following command to view the currently running Machines:
 Next, let's fire up the container with Docker Compose and get Django, Postgres, and Redis up and running.
 
 ## Docker Compose
+Let's take a look at the *docker-compose.yml* file:
+
+```yml
+web:
+ restart: always
+ build: ./web
+ expose:
+  - "8000"
+ links:
+  - postgres:postgres
+  - redis:redis
+ volumes:
+  - /usr/src/app
+  - /usr/src/app/static
+ env_file: .env
+ command: /usr/local/bin/gunicorn django_docker.wsgi:application -w 2 -b :8000
