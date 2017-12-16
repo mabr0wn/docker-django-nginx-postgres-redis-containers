@@ -36,3 +36,39 @@ Once done, test out the installs:
     CPython version: 2.7.12
     OpenSSL version: OpenSSL 1.0.2j 26 Sep 2016
     
+
+Next clone the project from the [repository](https://github.com/mattd429/Django-Docker) or create your own project based on the project structure found on the repo:
+
+    ├── docker-compose.yml
+    ├── nginx
+    │   ├── Dockerfile
+    │   └── sites-enabled 
+    │       └── django_project
+    ├── production.yml
+    └── web
+        ├── Dockerfile
+        ├── django_docker
+        │   ├── __init__.py
+        │   ├── apps
+        │   │   ├── __init__.py
+        │   │   └── todo
+        │   │       ├── __init__.py
+        │   │       ├── admin.py
+        │   │       ├── models.py
+        │   │       ├── templates
+        │   │       │   ├── _base.html
+        │   │       │   └── home.html
+        │   │       ├── tests.py
+        │   │       ├── urls.py
+        │   │       └── views.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        ├── manage.py
+        ├── requirements.txt
+        └── static
+            └── main.css
+            
+        
+        
+        
