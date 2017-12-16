@@ -150,4 +150,11 @@ postgres:
   volumes:
     - pgdata:/var/lib/postgresql/data/
     
-
+regis:
+  restart: always
+  image: redis:latest
+  ports:
+    - "6379:6379"
+  volumes:
+    - redisdata:/data
+```
