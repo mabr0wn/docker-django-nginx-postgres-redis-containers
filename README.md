@@ -166,3 +166,5 @@ Here, we're defining four services - *web*, *nginx*, *postgres*, and *redis*.
 
 2. The *nginx* service is used for reverse proxy to proxy to foward requests either to Django or the static file directory.
 3. Next, the *postgres* service is built from the official [PostgresSQL image](https://registry.hub.docker.com/_/postgres/) from [Docker Hub](https://hub.docker.com/), which installs Postgres and runs the server on the default port 5432. Did you notice the [data volume](https://docs.docker.com/docker-cloud/apps/volumes/)? This helps ensure that the data persists even if the Postgres container is deleted.
+4. Likewise, the *redis* service uses the official [Redis image](https://registry.hub.docker.com/u/library/redis/) to install Redis and then the service is ran on port 6379.
+
