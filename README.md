@@ -1,6 +1,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)]() [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]() [![GitHub language count](https://img.shields.io/github/languages/count/badges/shields.svg)]()
 
-![alt text](http://yacows.com.br/media/images/2013/11/12/img-0-pythonninja.png)
+![alt text](https://realpython.com/images/blog_images/dockerizing-django/django-docker.png)
 
 [Docker](https://www.docker.com/) is a containerization tool used for spinning up isolated, reproducible application enviroments. **This piece details how to containerize a Django Project, Postgres, and Redis for local development along with delivering the stack to the cloud via** [Docker Compose](https://docs.docker.com/compose/) and [Docker Machine](http://docs.docker.com/machine/)
 
@@ -181,3 +181,6 @@ Once the services are running, we need to create the database migrations:
     $ docker-compose run web /usr/local/bin/python manage.py migrate
     
 Grab the IP associated with Docker Machine -`docker-machine ip dev`- and then navigate to that IP in your browser:
+
+![alt text](https://realpython.com/images/blog_images/dockerizing-django/django-on-docker.png)
+
