@@ -200,4 +200,8 @@ To see which environment variables are available on the *web* service, run:
 
     $ docker-compose run web env
     
+To view the logs:
 
+    $ docker-compose logs
+    
+    
