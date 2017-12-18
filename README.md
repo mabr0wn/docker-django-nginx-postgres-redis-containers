@@ -180,3 +180,4 @@ Once the services are running, we need to create the database migrations:
 
     $ docker-compose run web /usr/local/bin/python manage.py migrate
     
+Grab the IP associated with Docker Machine -`docker-machine ip dev`- and then navigate to that IP in your browser:
