@@ -207,3 +207,5 @@ To view the logs:
 You can also enter the Postgres Shell - since we fowarded the port to this host environment in the *docker-compose.yml* file - to add users/roles as well as databases via:
 
     $ psql - h 192.168.99.100 -p 5342 -U postgres --password
+
+Ready to deploy? Stop the processes via `docker-compose stop` and let's get the app up in the cloud!
