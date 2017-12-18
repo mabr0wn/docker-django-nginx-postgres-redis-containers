@@ -168,3 +168,9 @@ Here, we're defining four services - *web*, *nginx*, *postgres*, and *redis*.
 3. Next, the *postgres* service is built from the official [PostgresSQL image](https://registry.hub.docker.com/_/postgres/) from [Docker Hub](https://hub.docker.com/), which installs Postgres and runs the server on the default port 5432. Did you notice the [data volume](https://docs.docker.com/docker-cloud/apps/volumes/)? This helps ensure that the data persists even if the Postgres container is deleted.
 4. Likewise, the *redis* service uses the official [Redis image](https://registry.hub.docker.com/u/library/redis/) to install Redis and then the service is ran on port 6379.
 
+Now, to get the containers running, build the images and then start the services:
+
+    $ docker-compose build
+    $ docker-compose up -d
+    
+    
