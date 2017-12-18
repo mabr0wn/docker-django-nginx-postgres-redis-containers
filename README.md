@@ -176,3 +176,7 @@ Now, to get the containers running, build the images and then start the services
 
 This will take a while the first time you run it.  Subsequent builds run much quicker since Docker [caches](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/) the results from the first build.
 
+Once the services are running, we need to create the database migrations:
+
+    $ docker-compose run web /usr/local/bin/python manage.py migrate
+    
