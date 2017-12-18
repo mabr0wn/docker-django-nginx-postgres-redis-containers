@@ -184,3 +184,4 @@ Grab the IP associated with Docker Machine -`docker-machine ip dev`- and then na
 
 ![alt text](https://realpython.com/images/blog_images/dockerizing-django/django-on-docker.png)
 
+Try refreshing. You should see the counter update. Essentially, we're using the [Redis INCR](http://redis.io/commands/incr) to increment after each handled request. Check out the code in *web/django_docker/apps/todo/views.py* for more info.
