@@ -203,5 +203,7 @@ To see which environment variables are available on the *web* service, run:
 To view the logs:
 
     $ docker-compose logs
-    
-    
+      
+You can also enter the Postgres Shell - since we fowarded the port to this host environment in the *docker-compose.yml* file - to add users/roles as well as databases via:
+
+    $ psql - h 192.168.99.100 -p 5342 -U postgres --password
