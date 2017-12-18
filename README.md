@@ -196,3 +196,8 @@ Again, this created four services, all running in different containers:
     dockerizingdjango_redis_1      /entrypoint.sh redis-server      Up      0.0.0.0:6379->6379/tcp
     dockerizingdjango_web_1        /usr/local/bin/gunicorn do ...   Up      8000/tcp
 
+To see which environment variables are available on the *web* service, run:
+
+    $ docker-compose run web env
+    
+
