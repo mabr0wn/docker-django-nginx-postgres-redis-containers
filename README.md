@@ -270,3 +270,16 @@ $ docker-compose run web /usr/local/bin/python manager.py migrate
 
 > Did you notice how we specified a different config file for production? 
 > what if you wanted to also run [collectstatic](https://docs.djangoproject.com/en/1.9/ref/contrib/staticfiles/#collectstatic)?  See this [issue](https://github.com/realpython/dockerizing-django/issues/13).
+
+
+Grab the IP address associated with that Digital Ocean account and view it in the browser. If all went well, you should see your app running, as it should.
+
+### Conclusion
+ - Grab the code from the [repo](https://github.com/realpython/dockerizing-django) (star it too).
+ - Need a Chanllenge? Try using [extends](https://docs.docker.com/compose/extends/) to clean up the repetitive code in the two Docker Compose configuration files. Keep it DRY!
+ - Have a great day!
+ 
+ 
+Thank you RealPython(https://realpython.com) for this tutorial.  This is a rewrite. 
+
+Grab the orignal @ [Github](https://github.com/realpython/dockerizing-django)
