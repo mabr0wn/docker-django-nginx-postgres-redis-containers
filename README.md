@@ -223,3 +223,5 @@ $ docker-machine create \
 production
 ```
 
+This will take a few minutes to provision the droplet and setup a new Docker Machine called *production*:
+
