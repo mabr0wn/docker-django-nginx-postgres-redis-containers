@@ -260,4 +260,4 @@ Set *production* as the active machine and load the Docker environment into the 
 $ eval "$(docker-machine env production)"
 ```
 
-Finally, let's build the Django app again in the cloud. This time we need to use a slightly different Docker Compose file that does not mount a [volume](https://docs.docker.com/engine/admin/volumes/) in the container.
+Finally, let's build the Django app again in the cloud. This time we need to use a slightly different Docker Compose file that does not mount a [volume](https://docs.docker.com/engine/admin/volumes/) in the container.  Why? Well, the volume is perfect for local development since we can update our local code in the "web" directory and the changes will immediately take affect in the container. In production, there's no need for this, obviously.
