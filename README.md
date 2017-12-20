@@ -280,6 +280,6 @@ Grab the IP address associated with that Digital Ocean account and view it in th
  - Have a great day!
  
  
-Thank you RealPython(https://realpython.com) for this tutorial.  This is a rewrite. 
+Thank you [RealPython](https://realpython.com) for this tutorial.  This is a rewrite. 
 
 Grab the orignal @ [Github](https://github.com/realpython/dockerizing-django)
