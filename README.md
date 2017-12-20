@@ -213,3 +213,6 @@ Ready to deploy? Stop the processes via `docker-compose stop` and let's get the 
 ### Deployment
 
 So, with our app running locally, we can now push this exact same environment to a cloud hosting provider with Docker Machine.  Let's deploy to a [Digital Ocean](https://www.digitalocean.com/?refcode=d8f211a4b4c2) box.
+
+After you [sign up](https://www.digitalocean.com/?refcode=d8f211a4b4c2) for Digital Ocean, generate a [Personal Access Token](https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2), and then run the following command:
+
