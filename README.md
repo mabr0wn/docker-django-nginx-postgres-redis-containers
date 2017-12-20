@@ -267,3 +267,6 @@ $ docker-compose build
 $ docker-compose -f production.yml up -d
 $ docker-compose run web /usr/local/bin/python manager.py migrate
 ```
+
+> Did you notice how we specified a different config file for production? 
+> what if you wanted to also run [collectstatic](https://docs.djangoproject.com/en/1.9/ref/contrib/staticfiles/#collectstatic)?  See this [issue](https://github.com/realpython/dockerizing-django/issues/13).
