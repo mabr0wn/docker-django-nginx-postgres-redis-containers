@@ -254,3 +254,5 @@ dev          *        virtualbox     Running   tcp://192.168.99.100:2376        
 production   -        digitalocean   Running   tcp://45.55.35.188:2376             v1.10.3
 ```
 
+Set *production* as the active machine and load the Docker environment into the shell:
+
