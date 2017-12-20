@@ -245,3 +245,12 @@ Docker is up and running!
 To see how to connect Docker to this machine, run: docker-machine env production
 ```
 
+Now we have two machines urnnin, one locally and one on Digital Ocean:
+
+```
+$ docker-machine ls
+NAME         ACTIVE   DRIVER         STATE     URL                         SWARM   DOCKER   ERRORS
+dev          *        virtualbox     Running   tcp://192.168.99.100:2376           v1.10.3
+production   -        digitalocean   Running   tcp://45.55.35.188:2376             v1.10.3
+```
+
