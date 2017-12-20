@@ -216,3 +216,10 @@ So, with our app running locally, we can now push this exact same environment to
 
 After you [sign up](https://www.digitalocean.com/?refcode=d8f211a4b4c2) for Digital Ocean, generate a [Personal Access Token](https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2), and then run the following command:
 
+```
+$ docker-machine create \
+-d digitalocean \
+--digitalocean-access-token=ADD_YOUR_TOKEN_HERE \
+production
+```
+
