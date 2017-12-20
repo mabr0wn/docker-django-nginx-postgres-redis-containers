@@ -256,3 +256,6 @@ production   -        digitalocean   Running   tcp://45.55.35.188:2376          
 
 Set *production* as the active machine and load the Docker environment into the shell:
 
+```
+$ eval "$(docker-machine env production)"
+```
